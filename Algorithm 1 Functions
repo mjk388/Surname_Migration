@@ -1,0 +1,22 @@
+
+# the Genealodzy dataset shall have following structure : ['Year', 'Name', 'Surname', 'Birth Place', 'Parish', 'Region','latitude', 'longitude']
+
+PL_Reduced['Region'] = PL_Reduced['Region'].replace({'Malopolskie': 'Southern Poland',
+                                                     'Podkarpackie':'Southern Poland',
+                                                     'Lodzkie': 'Central Poland',
+                                                     'Slaskie':'Silesia',
+                                                     'Swietokrzyskie': 'Central Poland',
+                                                     'Podlaskie':'Eastern Poland',
+                                                     'Lubelskie': 'Eastern Poland',
+                                                     'Opolskie': 'Silesia',
+                                                     'Lubuskie': 'Western Poland',
+                                                     'Kujawsko-Pomorskie': 'Western Poland',
+                                                     'Litwa': 'Lithuania',  
+                                                     'Bialorus': 'Belarus',
+                                                     'Warminsko-Mazurskie': 'Northern Poland',
+                                                     'Pomorskie': 'Northern Poland',
+                                                     'Zachodniopomorskie': 'Northern Poland',
+                                                     'Dolnoslaskie': 'Silesia',
+                                                     'Mazowsze': 'Central Poland'
+                                                     })
+
